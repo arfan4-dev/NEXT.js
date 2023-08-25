@@ -11,7 +11,7 @@ const GroupThirteen = () => {
 
 {/* Parent div */}
 <div className='mr-10'>
-<div className='flex justify-end gap-x-20'>
+<div className='flex justify-end gap-x-20 md:justify-center md:items-center'>
         <div >
         <Image src='/images/arrow.png' alt='' width={30} height={30}/>
         </div>
@@ -22,7 +22,7 @@ const GroupThirteen = () => {
         </div>
 
 {/* Line */}
-<div className='flex flex-col justify-end items-end'>
+<div className='flex flex-col justify-end items-end md:justify-center md:items-center'>
 <hr className="border-t border-gray-300 my-4 w-64"/>
 
     

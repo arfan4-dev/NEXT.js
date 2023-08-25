@@ -1,0 +1,15 @@
+/* Default styling for all screen sizes */
+#first, #second, #third, #fourth {
+    /* width: auto; Default width */
+
+  }
+  
+  /* Media query for medium screens */
+  @media (max-width: 768px) {
+    #first, #second, #third, #fourth {
+      /* width: 100%;
+      display: block;
+          color:red; */
+    }
+  }
+  

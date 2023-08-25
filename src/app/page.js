@@ -21,7 +21,7 @@ import TwentyOne from "./component/Group21/twentyOne";
 import TwentyTwo from "./component/Group22/TwentyTwo";
 export default function Home() {
   return (
-    <div>
+    <div className='overflow-hidden'>
       <GroupOne/>
       <GroupTwo/>
       <GroupThree/>

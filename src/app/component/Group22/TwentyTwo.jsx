@@ -1,12 +1,12 @@
 import React from 'react'
 import Image from 'next/image'
-
+import './style.css'
 const TwentyTwo = () => {
   return (
-    <div className='flex justify-around'>
+    <div className='flex justify-around mt-10 bg-slate-50  sx:block sm:block md:flex  '>
         
 {/* First Div */}
-<div className='flex flex-col justify-between items-start h-screen'>
+<div className='flex flex-col justify-between items-start ' id='first'>
 
   <div>
     <p>ENQUIRIES</p>
@@ -30,12 +30,12 @@ const TwentyTwo = () => {
 </div>
 
 {/* second */}
-<div>
+<div id='second'>
     <p>Contact</p>
 </div>
 
 {/* Third */}
-<div className='flex flex-col justify-center items-center'>
+<div className='flex flex-col justify-center items-center  sm:items-start xm:items-start' id='third'>
    <div>
    <p>REAL ESTATE</p>
     <p>realestate@zimogroup.org</p>
@@ -59,7 +59,7 @@ const TwentyTwo = () => {
 {/* Fourth */}
 
 
-<div>
+<div className='' id='fourth'>
     <div>
         <p>PROPERTY PROFESSIONALS / AGENTS
 </p>
@@ -121,12 +121,6 @@ const TwentyTwo = () => {
 </p>
     </div>
 </div>
-
-
-
-
-
-
 
     </div>
   )
